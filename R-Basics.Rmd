@@ -29,14 +29,32 @@ In that you can:
 -  and oh by the way, you can automate statistical analyses and reports
 
 
-
-
-
-
+## Basic functionality
 
 At it's simplest form, `R` is just a calculator
 
 ```{r}
 2+2
+5 / 3
+5 ** 2
+5 ^ 2
 ```
+
+While you may need to learn some basic syntax, the point from the code blocks above is that `R` is (most likely) capable of handling what you learned what you learned in math class.
+
+
+##  A soft introduction into Object Oriented Programing
+
+While typing `interactively` into a calculator (or command line prompt) can be useful, you will more than likely want to __save your work__ while thinking through a problem.  Instead of just asking for the sum of `2+2`, we can save the value for later!
+
+```{r}
+x = 2 +2 
+x
+```
+
+
+From this point forward, we can always refer to the value of `x`.  In our simple example, `x`'s value is equal to `4`, but we could have set it to a phrase like `x = "my value is 4" ` or something more complicated.  We will cover this later.
+
+
+
 
